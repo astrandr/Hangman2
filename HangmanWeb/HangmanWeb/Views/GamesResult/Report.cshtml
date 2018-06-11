@@ -1,0 +1,19 @@
+﻿@model HangmanRepository.GamesResult
+
+    <div> 
+        Games Report
+    </div>
+    <div>
+        Games: @Html.DisplayFor(gamesResult => gamesResult.NumberOfGames)
+    </div>
+    <div>
+        Success: @Html.DisplayFor(gamesResult => gamesResult.NumberOfSuccess)
+    </div>
+    <div>
+        Failed: @Html.DisplayFor(gamesResult => gamesResult.NumberOfFails)
+    </div>
+    <div>
+        Total chars: @Html.DisplayFor(gamesResult => gamesResult.NumberOfCharGuesses)
+    </div>
+
+

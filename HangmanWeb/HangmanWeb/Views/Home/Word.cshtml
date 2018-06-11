@@ -1,0 +1,46 @@
+﻿@model HangmanWeb.Models.Game
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<br /> <br />
+<div>
+    <p style="font-size:x-large">@Html.DisplayFor(game => game.DisplayWord)</p>
+</div>
+<div>
+    <p style="font-size:x-large">@Html.DisplayFor(game => game.Description)</p>
+</div>
+
+<br />
+
+<div class="col-md-3 ">
+    <img src="@ViewBag.ImagePath" />
+</div>
+
+<div class="col-md-3 ">
+    @{
+        if (@Model.Status == "")
+        {
+            for (char c = 'A'; c <= 'Z'; c++)
+            {
+                <button id="@c" style="width:32px" onclick="location.href='@Url.Action("CharClick", "Home")?c=@c'">@c</button>
+            }
+        }
+    }
+</div>
+
+<br />
+<div class="col-md-3 " style="clear:left; font-size:x-large">
+    Wrong chars: <div style="color:red">@Html.DisplayFor(game => game.WrongChars)</div>
+</div>
+
+<div class="col-md-3 " style="clear:left; font-size:x-large">
+    <br />
+    @Html.DisplayFor(game => game.Status)
+    <br />
+</div>
+
+<div style="clear:left; padding-top:50px">
+    @Html.ActionLink("New game", "NewGame")
+</div>
+

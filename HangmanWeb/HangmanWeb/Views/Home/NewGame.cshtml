@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="row">
+    <br />
+    <div class="col-md-4">
+        @using (Html.BeginForm("Word", "Home", FormMethod.Get))
+        {
+
+            <fieldset>
+
+                Categories
+
+                @Html.DropDownList("Categories") <input type="submit" value="Go" />
+
+            </fieldset>
+
+        }
+    </div>
+
+</div>

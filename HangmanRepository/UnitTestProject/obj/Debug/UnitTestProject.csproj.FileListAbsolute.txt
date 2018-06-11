@@ -1,0 +1,8 @@
+c:\users\andrey\documents\visual studio 2013\Projects\HangmanRepository\UnitTestProject\bin\Debug\UnitTestProject.dll
+c:\users\andrey\documents\visual studio 2013\Projects\HangmanRepository\UnitTestProject\bin\Debug\UnitTestProject.pdb
+c:\users\andrey\documents\visual studio 2013\Projects\HangmanRepository\UnitTestProject\bin\Debug\Hangman.Repository.dll
+c:\users\andrey\documents\visual studio 2013\Projects\HangmanRepository\UnitTestProject\bin\Debug\Hangman.Repository.pdb
+c:\users\andrey\documents\visual studio 2013\Projects\HangmanRepository\UnitTestProject\obj\Debug\UnitTestProject.csprojResolveAssemblyReference.cache
+c:\users\andrey\documents\visual studio 2013\Projects\HangmanRepository\UnitTestProject\obj\Debug\UnitTestProject.dll
+c:\users\andrey\documents\visual studio 2013\Projects\HangmanRepository\UnitTestProject\obj\Debug\UnitTestProject.pdb
+C:\Users\ANDREY\Documents\Visual Studio 2013\Projects\HangmanRepository\UnitTestProject\bin\Debug\UnitTestProject.dll.config

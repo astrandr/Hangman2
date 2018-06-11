@@ -1,0 +1,4 @@
+c:\users\andrey\documents\visual studio 2013\Projects\HangmanRepository\HangmanRepository\bin\Debug\Hangman.Repository.dll
+c:\users\andrey\documents\visual studio 2013\Projects\HangmanRepository\HangmanRepository\bin\Debug\Hangman.Repository.pdb
+c:\users\andrey\documents\visual studio 2013\Projects\HangmanRepository\HangmanRepository\obj\Debug\Hangman.Repository.dll
+c:\users\andrey\documents\visual studio 2013\Projects\HangmanRepository\HangmanRepository\obj\Debug\Hangman.Repository.pdb
